@@ -1,0 +1,27 @@
+**** Comparison of Approaches
+
+** The Greedy algorithm is significantly faster because it runs in
+O(n log n) time due to sorting, while brute-force runs in O(2ⁿ) time, which is infeasible for large inputs.
+
+
+**The greedy solution is easier to maintain:
+Fewer lines of code
+No recursion or backtracking
+Predictable performance
+
+** Memory trade-offs :
+Greedy: O(n) memory (sorted list + result)
+Brute-force: O(n) stack depth but extremely high CPU cost
+
+
+✅ Use the Greedy Algorithm
+
+Reasons:
+Handles thousands of tasks per second
+Produces an optimal solution
+Simple, scalable, and reliable
+
+
+**** Final Conclusion
+For a real-time delivery backend system, the Greedy earliest-finish-time algorithm is the only practical and scalable solution.
+Brute-force is computationally infeasible and should not be used in production.
